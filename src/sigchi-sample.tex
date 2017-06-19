@@ -172,9 +172,51 @@ Also biases must be analyzed as an important variable for our work, since biases
 
 Succinctly, while using touch or traditional environments are not new in a medical and clinical field, combining them for medical imaging diagnosis has not been studied. Much of the research focuses on the comparison between touch and traditional environments, techniques to be applied and the results. However, our approach do not address diagnosis, it was important to observe the physicians on their typical environment and how diagnosis work. Moreover, we specifically worked with health professionals and both traditional and touch environments interactions were purposely developed to combine novel, yet familiar, touch gestures with immersive visualization. In our current work, we focus on time performance and human error reduction, but adding to it a more understanding of time performance relation between both environments.
 
+\vfill\null
+
 \section{Interaction Design}
 
-In accordance to cancel out, or at least mitigate, the external conditions, dealing with resistance to non-typical medical practices and procedures, putting physicians on a different radiology work space, our approach relies on bringing the most common interaction work space the hospital meeting room and sitting them on the most comfortable position in front of both traditional and touch environments.
+In accordance to cancel out, or at least mitigate, the external conditions, dealing with resistance to non-typical medical practices and procedures, putting physicians on a different radiology work space, our approach relies on bringing the most common interaction work space the hospital meeting room and sitting them on the most comfortable position in front of both traditional and touch environments. An experiment was designed by us to better understand performance with traditional and touch input environments. More specifically, we were interested in developing a deeper understanding of a physician's need of motivation and satisfaction, when using touch environment and comparing that to an understanding obtained through standard methods of time performance and error mitigation.
+
+\subsection{Study}
+
+The study was a 2x2 within-subjects design with both input environments devices, the traditional environment, using a mouse and laptop keyboard, and the touch environment, supported by a touch screen tablet. Each physician completed six conditions in one of the two orders (Table \ref{study_ordering}). The first column is the time for each condition. And the second and third columns are the two orders that were chosen in an intercalated way. After each main condition, physicians were questioned about need satisfaction and experience.
+
+\begin{table}
+  \centering
+  \def\arraystretch{1.5}
+  \begin{tabular}{|c|c|c|}
+    \hline
+    \tabhead{Minutes/Oder} &
+    \multicolumn{1}{|p{0.3\columnwidth}|}{\centering\tabhead{1}} &
+    \multicolumn{1}{|p{0.3\columnwidth}|}{\centering\tabhead{2}} \\
+    \hline
+    \textless 1 & Tr (M) & Tr (T) \\
+    \hline
+    5 & M & T \\
+    \hline
+    \textless 1 & Q (M) & Q (T) \\
+    \hline
+    \textless 1 & Tr (T) & Tr (M) \\
+    \hline
+    5 & T & M \\
+    \hline
+    \textless 1 & Q (T) & Q (M) \\
+    \hline
+    \textless 5 & QF & QF \\
+    \hline
+  \end{tabular}
+  \caption{Study Ordering. Both Conditions (M = Mouse, T = Touch) took 5 minutes. Training (Tr) and Quiz (Q) took less then 1 minute. Participants complete a final questionnaire (QF = Final Quiz) that took less then 5 minutes.}
+  \label{study_ordering}
+\end{table}
+
+\section{Evaluation}
+
+To compare traditional and touch environments, that can be used in professional settings, to overcome performance factors, they are known to affect diagnosis and image annotation data collection. We employed DICOM \cite{mildenberger2002introduction} medical images scan of brain contained a big mass lesion near of the cortex. Evaluation sessions, as pair to the Table \ref{study_ordering}, comprised eight stages: 1) \textit{Introduction}, 2) \textit{First Environment Training}, 3) \textit{First Environment Test}, 4) \textit{First Environment Questionnaire}, 5) \textit{Second Environment Training}, 6) \textit{Second Environment Test}, 7) \textit{Second Environment Questionnaire}, 8) \textit{Final Questionnaire}. The study took approximately 30 minutes to 45 minutes.
+
+\subsection{Participants}
+
+The study ran at Hospital Fernando Fonseca (HFF) and where we created a collaboration protocol. We evaluated our system with five medical professionals, three of which were females and two were males. Three of them were medical doctors: two radiology senior resident with more then 10 years of experience, one radiology resident. The other two medical professionals were interns on the radiology section. All reported that they analyze medical images for diagnostic purpose on a daily basis.
 
 \section{Typeset Text}
 
