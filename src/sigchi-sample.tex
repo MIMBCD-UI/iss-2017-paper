@@ -1,6 +1,6 @@
 \documentclass{sigchi}
 
-% Use this command to override the default ACM copyright statement (e.g. for preprints). 
+% Use this command to override the default ACM copyright statement (e.g. for preprints).
 % Consult the conference website for the camera-ready copyright statement.
 
 
@@ -22,6 +22,7 @@
 \usepackage{graphics} % for EPS, load graphicx instead
 \usepackage{times}    % comment if you want LaTeX's default font
 \usepackage{url}      % llt: nicely formatted URLs
+\usepackage[utf8]{inputenc}
 
 % llt: Define a global style for URLs, rather that the default one
 \makeatletter
@@ -61,50 +62,56 @@ breaklinks=true,
 % create a shortcut to typeset table headings
 \newcommand\tabhead[1]{\small\textbf{#1}}
 
+\newcommand{\nm}{\normalsize}
 
 % End of preamble. Here it comes the document.
 \begin{document}
 
-\title{Comparing Traditional and Touch Environments for Medical Image Diagnosis}
+\title{Towards Touch-Based Medical Image Diagnosis Annotation}
 
 \numberofauthors{3}
 \author{
-  \alignauthor Francisco Maria Calisto\\
-    \affaddr{Affiliation}\\
-    \affaddr{Address}\\
-    \email{francisco.calisto@tecnico.ulisboa.pt}\\
-    \affaddr{Optional phone number}
-  \alignauthor 2nd Author Name\\
-    \affaddr{Affiliation}\\
-    \affaddr{Address}\\
-    \email{e-mail address}\\
-    \affaddr{Optional phone number}    
-  \alignauthor 3rd Author Name\\
-    \affaddr{Affiliation}\\
-    \affaddr{Address}\\
-    \email{e-mail address}\\
-    \affaddr{Optional phone number}
-}
+  \alignauthor { Francisco M. Calisto}\\
+    \affaddr{ Inesc-Id}\\
+    \affaddr{ Address}\\
+    \email{\nm francisco.calisto@tecnico.ulisboa.pt}\\
+    %\affaddr{Optional phone number}
+  \alignauthor { Alfredo Ferreira Jr.}\\
+    \affaddr{ Affiliation}\\
+    \affaddr{ Address}\\
+    \email{\nm e-mail address}\\
+    %\affaddr{Optional phone number}    
+  \alignauthor { Daniel Gonçalves}\\
+    \affaddr{ Affiliation}\\
+    \affaddr{ Address}\\
+    \email{\nm e-mail address}\\
+    %\affaddr{Optional phone number}
+  \alignauthor { Jacinto C. Nascimento}\\
+    \affaddr{ Affiliation}\\
+    \affaddr{ Address}\\
+    \email{\nm e-mail address}\\
+    %\affaddr{Optional phone number}    
+    }
 
 \maketitle
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=1.0\columnwidth]{IMG_4987.JPG}
+\includegraphics[width=0.8\columnwidth]{IMG_4987.JPG}
 \caption{Physician Radiologist interacting with traditional environment.}
 \label{fig:Fig1}
 \end{figure}
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=1.0\columnwidth]{IMG_4979.JPG}
+\includegraphics[width=0.8\columnwidth]{IMG_4979.JPG}
 \caption{User Testing room with touch environment.}
 \label{fig:Fig2}
 \end{figure}
 
 \begin{abstract}
 
-It is becoming increasingly apparent in medical image analysis that multiple imaging modalities are required for the accurate treatment and diagnosis of the disease. Our work is to  evaluate the performance and differences between direct touch and traditional (keyboard and mouse) input on two different devices using several validated scales. The proposed problem will help a research data collection, since it will help us understand the right environment to collect those data artifacts for a clinical purpose.
+It is becoming increasingly apparent in medical image analysis that multiple imaging modalities are required for the accurate treatment and diagnosis of the disease. Our work is to  evaluate the performance and experience differences between direct touch and traditional (keyboard and mouse) input on two different devices using several validated scales. The proposed problem will help a research data collection, since it will help us understand the right environment to collect those data artifacts for a clinical purpose. This paper shows the added value of considering experience in additional to traditional measures of performance, demonstrating an efficient and effective method for gathering experience on environment comparison in medical and clinical purposes. We conclude by discussing how an understanding of this performance and experience can help in what cases we should take touch environment against traditional ones, for medical and clinical purposes.
 
 \end{abstract}
 
@@ -126,11 +133,9 @@ letter-number combination will need to be entered.}
 
 \section{Introduction}
 
-The medical imaging diagnosis is a topic of great interest, it has been the subject of intensive research in the world of medicine, and more specifically to Radiology. However the developments in terms of innovation in the computational world are still scarce. The user interfaces herein proposed deals with the analysis of digital images, commonly used by medical community. Related to the ease of distribution, retrieval and storage reasons, where digital images have a positive impact on medical diagnosis.
+The medical imaging diagnosis is a topic of great interest, it has been the subject of intensive research \cite{doi2007computer, seibel2005medical, doi2005current} in the world of medicine, and more specifically to Radiology. However the developments in terms of innovation in the computational world are still scarce. The user interfaces herein proposed deals with the analysis of digital images, commonly used by medical community. Related to the ease of distribution, retrieval and storage reasons, where digital images have a positive impact on medical diagnosis.
 
-In the proposed paper, i.e., an analysis of the performance and differences between direct touch and traditional environments, several issues must be considered. First, each environment must be comfortable to interact with and fast enough, to solve the annotation improvements. Second, for each environment, a simple image feature must be considered.
-
-\clearpage
+In the proposed paper, i.e., an analysis of the performance and experience differences between direct touch and traditional environments, several issues must be considered. First, each environment must be comfortable to interact with and fast enough, to solve the annotation improvements. Second, for each environment, a simple image feature must be considered.
 
 The performance differences of traditional and touch input have been studied in terms of speed and accuracy for clinical and medical variety of interactive tasks, such as Regions of Interest (ROI) annotations, length measurements, among others. Although error and throughput are important considerations when evaluating input devices, there is a lack of research examining how the User eXperience (UX) compromises the interactive surfaces based on the input type. In comparison to traditional usability evaluation, which focuses primarily on cognition and performance, UX shifts the focus to sensation, affect, value of interaction and meaning.
 
@@ -144,7 +149,7 @@ To understand whether touch or traditional environments affects experience, we c
 
 Considering the most basic elements of interaction development for medical imaging ROI annotations, we represented the common interactive tasks of \textit{ROI annotation}, \textit{enable annotations}, \textit{disable annotations}, \textit{activate annotations}, \textit{deactivate annotations}, \textit{clear all annotations} and \textit{change image} in a casual medical and clinical application. (We take an experiment with 5 participants, where we found the use of touch input environment improves performance in terms of speed.
 
-We present Comparing Traditional and Touch Environments for Medical Image Diagnosis, a two input environments comparison, where our research has several important contributions to the medical imaging diagnosis. First, it will allows imagiologists by improving experience of touch over traditional input environments consistently in a variety of measures, while avoiding the conditions that can increase time costs and error mitigation. And second, since physicians resistance to novel systems and technologies, showing that improvements to experience do not come at a performance cost, helped them to this well known issue. Actually this was accompanied by improved speed and accuracy.
+We present Comparing Traditional and Touch Environments for Medical Image Diagnosis, a two input environments comparison, where our research has several important contributions to the medical imaging diagnosis. First, it will allows imagiologists by improving experience of touch over traditional input environments consistently in a variety of measures, while avoiding the conditions that can increase time costs and error prone. And second, since physicians resistance to novel systems and technologies, showing that improvements to experience do not come at a performance cost, helped them to this well known issue. Actually this was accompanied by improved speed and accuracy.
 
 \section{Related Work}
 
@@ -172,8 +177,6 @@ Also biases must be analyzed as an important variable for our work, since biases
 
 Succinctly, while using touch or traditional environments are not new in a medical and clinical field, combining them for medical imaging diagnosis has not been studied. Much of the research focuses on the comparison between touch and traditional environments, techniques to be applied and the results. However, our approach do not address diagnosis, it was important to observe the physicians on their typical environment and how diagnosis work. Moreover, we specifically worked with health professionals and both traditional and touch environments interactions were purposely developed to combine novel, yet familiar, touch gestures with immersive visualization. In our current work, we focus on time performance and human error reduction, but adding to it a more understanding of time performance relation between both environments.
 
-\vfill\null
-
 \section{Interaction Design}
 
 In accordance to cancel out, or at least mitigate, the external conditions, dealing with resistance to non-typical medical practices and procedures, putting physicians on a different radiology work space, our approach relies on bringing the most common interaction work space the hospital meeting room and sitting them on the most comfortable position in front of both traditional and touch environments. An experiment was designed by us to better understand performance with traditional and touch input environments. More specifically, we were interested in developing a deeper understanding of a physician's need of motivation and satisfaction, when using touch environment and comparing that to an understanding obtained through standard methods of time performance and error mitigation.
@@ -187,28 +190,34 @@ The study was a 2x2 within-subjects design with both input environments devices,
   \def\arraystretch{1.5}
   \begin{tabular}{|c|c|c|}
     \hline
-    \tabhead{Minutes/Oder} &
+    \tabhead{Phase/Oder} &
     \multicolumn{1}{|p{0.3\columnwidth}|}{\centering\tabhead{1}} &
     \multicolumn{1}{|p{0.3\columnwidth}|}{\centering\tabhead{2}} \\
     \hline
-    \textless 1 & Tr (M) & Tr (T) \\
+    1 & Tr (M) & Tr (T) \\
     \hline
-    5 & M & T \\
+    2 & M & T \\
     \hline
-    \textless 1 & Q (M) & Q (T) \\
+    3 & Q (M) & Q (T) \\
     \hline
-    \textless 1 & Tr (T) & Tr (M) \\
+    4 & Tr (T) & Tr (M) \\
     \hline
     5 & T & M \\
     \hline
-    \textless 1 & Q (T) & Q (M) \\
+    6 & Q (T) & Q (M) \\
     \hline
-    \textless 5 & QF & QF \\
+    7 & QF & QF \\
     \hline
   \end{tabular}
   \caption{Study Ordering. Both Conditions (M = Mouse, T = Touch) took 5 minutes. Training (Tr) and Quiz (Q) took less then 1 minute. Participants complete a final questionnaire (QF = Final Quiz) that took less then 5 minutes.}
   \label{study_ordering}
 \end{table}
+
+\subsection{Procedure}
+
+The experiment was carried out on two consecutive days. Each day, physicians performed two repetitions, one for each environment, for a given task, by following the three DICOM images, where on the two first images, the task was almost the same: do some region of interest annotation on a mass lesion; the last image, was a  cranio-caudal axis, where typically the annotation task was more difficult and complex to do. The order in which the tasks were presented, were randomized per subject to avoid learning effects.
+
+For each environment, the physicians participated in a 1 minute training (Tr) session with the researcher. Then, the experimental system asking physicians the tasks performed on the training (Tr) sessions but this time on the three DICOM images, with no external researchers intervention. When the tasks for each image were successfully completed, the researcher ask physician to press "Next" button to the next DICOM image until the last one. If the researcher observed that the physician did not carry out the task in a given time, it was marked as undone and the physician went on to the next one.
 
 \section{Evaluation}
 
@@ -216,7 +225,73 @@ To compare traditional and touch environments, that can be used in professional 
 
 \subsection{Participants}
 
-The study ran at Hospital Fernando Fonseca (HFF) and where we created a collaboration protocol. We evaluated our system with five medical professionals, three of which were females and two were males. Three of them were medical doctors: two radiology senior resident with more then 10 years of experience, one radiology resident. The other two medical professionals were interns on the radiology section. All reported that they analyze medical images for diagnostic purpose on a daily basis.
+The study ran at Hospital Fernando Fonseca (HFF) and where we created a collaboration protocol. We evaluated our system with 5 medical professionals, aged 24-56 (Mdn=39), 3 of which were females and 2 were males. Three of them were medical doctors: 2 radiology senior resident with more then 10 years of experience, one radiology resident. The other 2 medical professionals were interns on the radiology section. All reported that they analyze medical images for diagnostic purpose on a daily basis.
+
+\subsection{Apparatus}
+
+The interaction prototype for the experiment was implemented in JavaScript using the cornerstone \cite{cornerstone} library and using common HTML/CSS for the user interface. The devices used on the experiment for the traditional environment were a MacBook Pro, Retina, 13-inch, Early 2015, with a standard integrated key board on the laptop, together with a Microsoft Mobile Mouse 4000. For the touch environemnt, we used a Microsoft Surface tablet with Windows RT 8.1, where the specifications are, processor nVidia TEGRA 3 Quad Core 1.30 GHz, 2 GB of RAM and 1250x550 screen resolution. The tablet is equipped with capacitive multi-touch screen.
+
+The base of the traditional environment display was located about 45 cm from the edge of the table, since it was the most comfortable distance for physicians. The initial position of the mouse was located in line with the base and 12 com from the edge of the laptop and 22 cm in a diagonal line from the edge of the display.
+
+For the touch environment, the display was located about 26 cm from the edge of the table. All physicians preferred to interact with the touch screen horizontally.
+
+\subsection{Task}
+
+For each condition, the physicians interacted with three DICOM brain images doing some region of interest annotation as a free hand feature. We choose the brain lesion images annotation as a task for several reasons. First, the two primary images are simple to interact and to annotate, so we have some understanding how fast a data collection can be in repeated common actions. Second, many touch environment  studies \cite{holzinger2002finger} have also made use of medical and clinical as both an example of application \cite{houben2014hypr, augstein2013fun, tsang2001improvement} and a mechanism for testing medical and clinical benefits. Third, the use of validated scales for understanding performance measurements, accuracy and error prone reduction. Thus, there is some advantages to having participants answer questions in this context.
+
+\begin{figure}[!tbp]
+  \centering
+  \begin{minipage}[b]{0.2\textwidth}
+    \includegraphics[width=\textwidth]{screen2}
+    \caption{During task annotation.}
+    \label{fig:non_finish_annot}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.2\textwidth}
+    \includegraphics[width=\textwidth]{screen3}
+    \caption{The end task annotation.}
+    \label{fig:finish_annot}
+  \end{minipage}
+\end{figure}
+
+In this user interface, the DICOM images appears on the center on the screen (Figure \ref{fig:main_user_interface}), with four options on the top of the screen, \textbf{Disable}, to hide the annotations lines and points; \textbf{Enable}, to show again those annotations lines and points; \textbf{Active}, it let's do free hand annotations on the DICOM image; and last, but not least the \textbf{Deactive}, to block cursor annotation, that way the user can freely handle the image. On the bottom of the screen, we have three button option, the \textbf{Back}, to go back to the previous DICOM image; the \textbf{Clear drawing} button, that clear all lines and points from the physicians annotation; and finally, a \textbf{Next} button, to go to the next DICOM image.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.9\columnwidth]{screen1}
+\caption{User interface prototype.}
+\label{fig:main_user_interface}
+\end{figure}
+
+Physicians interact with this user interface by doing some annotations on some regions of interest areas. In our work, the first task was to do annotations on the DICOM Image 1 along side the brain lesion near of the cortex as we can see on Figure \ref{fig:non_finish_annot} and Figure \ref{fig:finish_annot}. The second image is almost similar of the first one (just a different frame) so the task was the same. The last image we put physicians doing some more difficult annotation as we can see on Figure \ref{fig:fig6}.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.9\columnwidth]{screen4}
+\caption{Hard difficulty DICOM annotated image.}
+\label{fig:fig6}
+\end{figure}
+
+The interaction between physicians and the user interface was made by mouse clicks (traditional input environment), or tapping with a single finger (touch input environment). Each top button can be activated each time you press it and has an hover aspect to give physicians information about the state of the interaction. With the goal of having an input consistence, only one tap at a time could be active on the screen.
+
+Physicians were informed to be as accurate as possible while getting the highest time performance they could.
+
+\subsection{Measures}
+
+For start measuring, at the beginning of the study physicians were inquired to provide demographic information. At the end of each condition, physicians completed a series of validated scales. Starting by the Positive and Negative Affect Scale \cite{watson1999panas} (PANAS), the next scale was the Intrinsic Motivation Inventory \cite{ryan1982control} (IMI) and finally, Experience Needs Satisfaction \cite{broeck2010capturing} (ENS). When we achieave the end of the condition, physicians were asked to provide information and rank each condition, providing any comments.
+
+\subsubsection{Performance}
+
+To determine performance during the task, we calculated a variety of metrics from the records, including accuracy of the annotation, time and number of errors. We also measure the number of interactions with the system. In traditional environment, the number of interactions was calculated by the number of left mouse clicks. On the other hand, in touch environment, the number of interactions was defined as the total number of single taps.
+
+We measure accuracy by calculating the hit rat, defined has the percentage of annotations on three areas. The first area (Area A) was an high accuracy annotation, where we score it with three points (HR = 3). The second area (Area B) was a low accuracy annotation, where we score this annotations as one (HR = 1). And finally, the last one (Area C) was scored as a zero (HR = 0), when the annotation was critically with no accuracy. As we can see on Figure \ref{} the areas were defined and easily calculated.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.9\columnwidth]{mimbcd-ui_areas}
+\caption{Hard difficulty DICOM annotated image.}
+\label{fig:fig6}
+\end{figure}
 
 \section{Typeset Text}
 
