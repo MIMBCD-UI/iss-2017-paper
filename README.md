@@ -4,6 +4,35 @@
 
 ACM Interactive Surfaces and Spaces ([ACM ISS 2017](https://iss2017.acm.org/)), formerly known as  the ACM International Conference on Interactive Tabletops and  Surfaces (ITS), welcomes original, high-quality research and industry  contributions that advance the state-of-the-art in the area of  interactive surfaces and spaces (including tabletops, large displays,  mobile, and mini devices). We embrace innovations in a wide variety of  areas including design, software, hardware, understanding of use, and  applications or deployments of interactive surfaces.
 
+## Information
+
+* [Prototype](http://ec2-52-14-244-33.us-east-2.compute.amazonaws.com/)
+   * [Server 1](https://github.com/MIMBCD-UI/server-1)
+   * [Server 2](https://github.com/MIMBCD-UI/server-2)
+   * [Server 3](https://github.com/MIMBCD-UI/server-3)
+* [Questionnairs](https://github.com/MIMBCD-UI/questionnaires)
+   * [Traditional Prototype User Observation](https://github.com/MIMBCD-UI/questionnaires/tree/master/src/script_2)
+   * [Touch Prototype User Observation](https://github.com/MIMBCD-UI/questionnaires/tree/master/src/script_3)
+* [User Testing Guide](https://github.com/MIMBCD-UI/testing-guide)
+
+## Towards Touch-Based Medical Image Diagnosis Annotation (TTMIDA)
+
+<img src="assets/header_2.jpg" />
+
+### Abstract
+
+A fundamental step in medical diagnosis for patient follow-up relies on the ability of radiologists performing reliable diagnosis from acquired images. Basically, the diagnosis strongly depends on the visual inspection over the shape of the lesions, and somehow register its evolution through time. In existing clinical setups, a large number of images are currently acquired and should be individually inspected. As datasets increase in size, such visual evaluation becomes harder. For this reason it is crucial to introduce easy-to-use interfaces that help the radiologists not only to perform a reliable visual inspection but more importantly, allow the efficient delineation of the lesions. In this paper, we will present a study on integrating the above interfaces in a real-world scenario. More specifically, we will explore the radiologist's receptivity to the current touch environment solution. The advantages of touch are threefold: (i) the time performance is superior regarding the traditional use, (ii) it has more intuitive control and, (iii) for less time, the user interface delivers more information per action, concerning annotations. We concluded, from our studies that the path towards touch-based on medical image diagnosis annotation includes overcoming the current refusal to use these systems by radiologists, which resist change.  Also, a solution to the finger occlusion must be devised.
+
+### Authors
+
+[Francisco Maria Calisto](http://franciscocalisto.me/) ([FMCalisto](https://github.com/FMCalisto))
+
+[Alfredo Ferreira](http://web.ist.utl.pt/alfredo.ferreira/)
+
+[Daniel Gonçalves](http://web.ist.utl.pt/~daniel.j.goncalves/)
+
+[Jacinto Nascimento](http://users.isr.ist.utl.pt/~jan/)
+
 ## Sponsors
 
 <span class="image">
@@ -41,32 +70,3 @@ ACM Interactive Surfaces and Spaces ([ACM ISS 2017](https://iss2017.acm.org/)), 
     <img src="assets/logo_200.png" alt="isr" />
   </a>
 </span>
-
-## Information
-
-* [Prototype](http://ec2-52-14-244-33.us-east-2.compute.amazonaws.com/)
-   * [Server 1](https://github.com/MIMBCD-UI/server-1)
-   * [Server 2](https://github.com/MIMBCD-UI/server-2)
-   * [Server 3](https://github.com/MIMBCD-UI/server-3)
-* [Questionnairs](https://github.com/MIMBCD-UI/questionnaires)
-   * [Traditional Prototype User Observation](https://github.com/MIMBCD-UI/questionnaires/tree/master/src/script_2)
-   * [Touch Prototype User Observation](https://github.com/MIMBCD-UI/questionnaires/tree/master/src/script_3)
-* [User Testing Guide](https://github.com/MIMBCD-UI/testing-guide)
-
-## Towards Touch-Based Medical Image Diagnosis Annotation (TTMIDA)
-
-<img src="assets/header_2.jpg" />
-
-### Abstract
-
-A fundamental step in medical diagnosis for patient follow-up relies on the ability of radiologists performing reliable diagnosis from acquired images. Basically, the diagnosis strongly depends on the visual inspection over the shape of the lesions, and somehow register its evolution through time. In existing clinical setups, a large number of images are currently acquired and should be individually inspected. As datasets increase in size, such visual evaluation becomes harder. For this reason it is crucial to introduce easy-to-use interfaces that help the radiologists not only to perform a reliable visual inspection but more importantly, allow the efficient delineation of the lesions. In this paper, we will present a study on integrating the above interfaces in a real-world scenario. More specifically, we will explore the radiologist's receptivity to the current touch environment solution. The advantages of touch are threefold: (i) the time performance is superior regarding the traditional use, (ii) it has more intuitive control and, (iii) for less time, the user interface delivers more information per action, concerning annotations. We concluded, from our studies that the path towards touch-based on medical image diagnosis annotation includes overcoming the current refusal to use these systems by radiologists, which resist change.  Also, a solution to the finger occlusion must be devised.
-
-### Authors
-
-[Francisco Maria Calisto](http://franciscocalisto.me/) ([FMCalisto](https://github.com/FMCalisto))
-
-[Alfredo Ferreira](http://web.ist.utl.pt/alfredo.ferreira/)
-
-[Daniel Gonçalves](http://web.ist.utl.pt/~daniel.j.goncalves/)
-
-[Jacinto Nascimento](http://users.isr.ist.utl.pt/~jan/)
