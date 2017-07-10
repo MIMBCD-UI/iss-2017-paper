@@ -10,7 +10,7 @@ ACM Interactive Surfaces and Spaces ([ACM ISS 2017](https://iss2017.acm.org/)), 
 
 A fundamental step in medical diagnosis for patient follow-up relies on the ability of radiologists performing reliable diagnosis from acquired images. Basically, the diagnosis strongly depends on the visual inspection over the shape of the lesions, and somehow register its evolution through time. In existing clinical setups, a large number of images are currently acquired and should be individually inspected. As datasets increase in size, such visual evaluation becomes harder. For this reason it is crucial to introduce easy-to-use interfaces that help the radiologists not only to perform a reliable visual inspection but more importantly, allow the efficient delineation of the lesions. In this paper, we will present a study on integrating the above interfaces in a real-world scenario. More specifically, we will explore the radiologist's receptivity to the current touch environment solution. The advantages of touch are threefold: (i) the time performance is superior regarding the traditional use, (ii) it has more intuitive control and, (iii) for less time, the user interface delivers more information per action, concerning annotations. We concluded, from our studies that the path towards touch-based on medical image diagnosis annotation includes overcoming the current refusal to use these systems by radiologists, which resist change.  Also, a solution to the finger occlusion must be devised.
 
-# Summary
+# References
 
 * [Prototype](http://ec2-52-14-244-33.us-east-2.compute.amazonaws.com/)
    * [Server 1](https://github.com/MIMBCD-UI/server-1)
