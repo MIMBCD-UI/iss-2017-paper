@@ -4,8 +4,23 @@
 
 ACM Interactive Surfaces and Spaces ([ACM ISS 2017](https://iss2017.acm.org/)), formerly known as  the ACM International Conference on Interactive Tabletops and  Surfaces (ITS), welcomes original, high-quality research and industry  contributions that advance the state-of-the-art in the area of  interactive surfaces and spaces (including tabletops, large displays,  mobile, and mini devices). We embrace innovations in a wide variety of  areas including design, software, hardware, understanding of use, and  applications or deployments of interactive surfaces.
 
-## Donors
+## Sponsors
 
+<span class="image">
+  <a href="http://tecnico.ulisboa.pt/" title="IST">
+    <img src="assets/fct.png" alt="ist" />
+  </a>
+</span>
+<span class="image">
+  <a href="http://tecnico.ulisboa.pt/" title="IST">
+    <img src="assets/fccn.png" alt="ist" />
+  </a>
+</span>
+<span class="image">
+  <a href="http://tecnico.ulisboa.pt/" title="IST">
+    <img src="assets/ulisboa.png" alt="ist" />
+  </a>
+</span>
 <span class="image">
   <a href="http://tecnico.ulisboa.pt/" title="IST">
     <img src="assets/IST_C_RGB_POS.png" alt="ist" />
