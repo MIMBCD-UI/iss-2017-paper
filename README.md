@@ -14,6 +14,7 @@ ACM Interactive Surfaces and Spaces ([ACM ISS 2017](https://iss2017.acm.org/)), 
    * [Traditional Prototype User Observation](https://github.com/MIMBCD-UI/questionnaires/tree/master/src/script_2)
    * [Touch Prototype User Observation](https://github.com/MIMBCD-UI/questionnaires/tree/master/src/script_3)
 * [User Testing Guide](https://github.com/MIMBCD-UI/testing-guide)
+* [SIGCHI Conference Publications Format](http://www.sigchi.org/publications/chipubform)
 
 ## Towards Touch-Based Medical Image Diagnosis Annotation (TTMIDA)
 
