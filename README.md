@@ -7,18 +7,18 @@ ACM Interactive Surfaces and Spaces ([ACM ISS 2017](https://iss2017.acm.org/)), 
 ## Sponsors
 
 <span class="image">
-  <a href="http://tecnico.ulisboa.pt/" title="IST">
-    <img src="assets/fct.png" alt="ist" />
+  <a href="http://www.fct.pt/" title="FCT">
+    <img src="assets/fct.png" alt="fct" />
   </a>
 </span>
 <span class="image">
-  <a href="http://tecnico.ulisboa.pt/" title="IST">
-    <img src="assets/fccn.png" alt="ist" />
+  <a href="https://www.fccn.pt/en/" title="FCCN">
+    <img src="assets/fccn.png" alt="fccn" />
   </a>
 </span>
 <span class="image">
-  <a href="http://tecnico.ulisboa.pt/" title="IST">
-    <img src="assets/ulisboa.png" alt="ist" />
+  <a href="https://www.ulisboa.pt/en/" title="ULisboa">
+    <img src="assets/ulisboa.png" alt="ulisboa" />
   </a>
 </span>
 <span class="image">
