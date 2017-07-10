@@ -4,6 +4,50 @@
 
 ACM Interactive Surfaces and Spaces ([ACM ISS 2017](https://iss2017.acm.org/)), formerly known as  the ACM International Conference on Interactive Tabletops and  Surfaces (ITS), welcomes original, high-quality research and industry  contributions that advance the state-of-the-art in the area of  interactive surfaces and spaces (including tabletops, large displays,  mobile, and mini devices). We embrace innovations in a wide variety of  areas including design, software, hardware, understanding of use, and  applications or deployments of interactive surfaces.
 
+## Donors
+
+<span class="image">
+  <a href="http://tecnico.ulisboa.pt/" title="IST">
+    <img src="assets/IST_C_RGB_POS.png" alt="ist" />
+  </a>
+</span>
+<span class="image">
+  <a href="http://dei.tecnico.ulisboa.pt" title="DEI">
+    <img src="assets/DEI_RGB.png" alt="dei" />
+  </a>
+</span>
+<span class="image">
+  <a href="http://www.inesc-id.pt/" title="INESC-ID">
+    <img src="assets/logo-inesc-id.png" alt="inesc-id" />
+  </a>
+</span>
+<span class="image">
+  <a href="http://welcome.isr.tecnico.ulisboa.pt/" title="ISR">
+    <img src="assets/logo_200.png" alt="isr" />
+  </a>
+</span>
+
+<span class="image">
+  <a href="http://tecnico.ulisboa.pt/" title="IST">
+    <img src="assets/IST_C_RGB_POS.png" alt="ist" />
+  </a>
+</span>
+<span class="image">
+  <a href="http://dei.tecnico.ulisboa.pt" title="DEI">
+    <img src="assets/DEI_RGB.png" alt="dei" />
+  </a>
+</span>
+<span class="image">
+  <a href="http://www.inesc-id.pt/" title="INESC-ID">
+    <img src="assets/logo-inesc-id.png" alt="inesc-id" />
+  </a>
+</span>
+<span class="image">
+  <a href="http://welcome.isr.tecnico.ulisboa.pt/" title="ISR">
+    <img src="assets/logo_200.png" alt="isr" />
+  </a>
+</span>
+
 ## Information
 
 * [Prototype](http://ec2-52-14-244-33.us-east-2.compute.amazonaws.com/)
