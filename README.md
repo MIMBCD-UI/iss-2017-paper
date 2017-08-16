@@ -6,6 +6,8 @@ ACM Interactive Surfaces and Spaces ([ACM ISS 2017](https://iss2017.acm.org/)), 
 
 ## Information
 
+* [ISS 2017 Paper (Transfered to Poster)](https://github.com/MIMBCD-UI/iss-2017-paper)
+* [ISS 2017 Poster](https://github.com/MIMBCD-UI/iss-2017-poster)
 * [Prototype](http://ec2-52-14-244-33.us-east-2.compute.amazonaws.com/)
    * [Server 1](https://github.com/MIMBCD-UI/server-1)
    * [Server 2](https://github.com/MIMBCD-UI/server-2)
